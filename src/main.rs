@@ -44,7 +44,7 @@ fn run(unit_size:i32) -> Result<(), Box<dyn Error>> {
                 
             }           
             seen_numbers.insert(number_int);
-            println!("Member {:?} {:?}", unit_num, character_map.get_key_value(&number) );
+            println!("Member {:?}: {}", unit_num, character_map.get(&number).unwrap());
             
         };
         
