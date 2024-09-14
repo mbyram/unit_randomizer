@@ -1,0 +1,10 @@
+[package]
+name = "unit_randomizer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matthew Byram"]
+description = "Small randomizer for creating unit teams, specifically for Unicorn Overlord to create varying teams"
+
+[dependencies]
+csv = "1.3.0"
+rand = "0.8.5"
