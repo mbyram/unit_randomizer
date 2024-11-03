@@ -50,7 +50,7 @@ fn run(unit_size:i32) -> Result<(), Box<dyn Error>> {
 
         // Custom code, but only 1 group has 5 units. Eventually all groups should have 5. 
         // Might be I should find a way to bring in unit sizes and restrictions where necessary for making this more generic
-        let size = if index == 1{
+        let size = if index <=2 {
             5         
         }else{
             4
