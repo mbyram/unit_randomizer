@@ -12,26 +12,36 @@
 
 // Bringing in libraries
 use rand::Rng;
+use serde::Deserialize;
+
+use config::{
+    Config, 
+    ConfigError, 
+    File as ConfigFile, 
+};
+
 use std::{
-    env,
     error::Error,
-    ffi::OsString,
-    fs::File,
+    fs::File as FsFile,
     process,
     collections::{HashSet, HashMap}
 };
 
+#[derive(Debug, Deserialize)]
+struct UnitConfig {
+    num_of_units: i32,
+    unit_size: i32,
+    csv_path: String,
+}
+
 // This run function will be used to looped through the csv and assign the characters
-fn run(unit_size:i32) -> Result<(), Box<dyn Error>> {
+fn run(unit_config:UnitConfig) -> Result<(), Box<dyn Error>> {
     let mut index = 1;
     let mut character_map = HashMap::new();
     let mut seen_numbers:HashSet<i32> = HashSet::new();
     
-    // Takes in the argument for the csv file name
-    let file_path = get_first_arg()?;
-
     // Open csv file
-    let file = File::open(file_path)?;
+    let file = FsFile::open(unit_config.csv_path)?;
 
     // Read the csv file
     let mut rdr = csv::Reader::from_reader(file);
@@ -44,20 +54,20 @@ fn run(unit_size:i32) -> Result<(), Box<dyn Error>> {
     }
 
     // We are looping through the amount of units we are spitting out
-    while index <= unit_size{
+    while index <= unit_config.num_of_units{
         let mut unit_num = 0;
         println!("Unit {:?}:", index);
 
         // Custom code, but only 1 group has 5 units. Eventually all groups should have 5. 
         // Might be I should find a way to bring in unit sizes and restrictions where necessary for making this more generic
-        let size = if index <=3 {
-            5         
-        }else{
-            4
-        };
+        // let size = if index <=3 {
+        //     5         
+        // }else{
+        //     4
+        // };
 
         // Loop through the size of the units
-        while unit_num < size{
+        while unit_num < unit_config.unit_size{
             unit_num +=1;
 
             // Get a random number from the Hashmap
@@ -83,19 +93,20 @@ fn run(unit_size:i32) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-// Checking the arguement being brought in, this case only 1 
-fn get_first_arg() -> Result<OsString, Box<dyn Error>> {
-    match env::args_os().nth(1) {
-        None => Err(From::from("expected 1 argument, but got none")),
-        Some(file_path) => Ok(file_path),
+fn load_config_file(file_name:&str)->Result<UnitConfig, ConfigError>{
+        let builder = Config::builder()
+        .add_source(ConfigFile::with_name(file_name))
+        .build()?;
+        
+        builder.get::<UnitConfig>("units")
     }
-}
 
 // The main function
 fn main() {
+    let unit_config  = load_config_file("config.toml").unwrap();
 
     //Runs the run fuction with the amount of units we need 
-    if let Err(err) = run(10) {
+    if let Err(err) = run(unit_config) {
         println!("{}", err);
         process::exit(1);
     }
