@@ -2,28 +2,22 @@ Character Name
 Bulbasaur
 Ivysaur
 Venusaur
-VenusaurMega Venusaur
 Charmander
 Charmeleon
 Charizard
-CharizardMega Charizard X
-CharizardMega Charizard Y
 Squirtle
 Wartortle
 Blastoise
 Blastoise
-Mega Blastoise
 Caterpie
 Metapod
 Butterfree
 Weedle
 Kakuna
 Beedrill
-BeedrillMega Beedrill
 Pidgey
 Pidgeotto
 Pidgeot
-PidgeotMega Pidgeot
 Rattata
 Raticate
 Spearow
@@ -34,10 +28,10 @@ Pikachu
 Raichu
 Sandshrew
 Sandslash
-Nidoranâ™€
+NidoranF
 Nidorina
 Nidoqueen
-Nidoranâ™‚
+NidoranM
 Nidorino
 Nidoking
 Clefairy
@@ -71,7 +65,6 @@ Poliwrath
 Abra
 Kadabra
 Alakazam
-AlakazamMega Alakazam
 Machop
 Machoke
 Machamp
@@ -87,7 +80,6 @@ Ponyta
 Rapidash
 Slowpoke
 Slowbro
-SlowbroMega Slowbro
 Magnemite
 Magneton
 Farfetch'd
@@ -102,7 +94,6 @@ Cloyster
 Gastly
 Haunter
 Gengar
-GengarMega Gengar
 Onix
 Drowzee
 Hypno
@@ -124,7 +115,6 @@ Rhydon
 Chansey
 Tangela
 Kangaskhan
-KangaskhanMega Kangaskhan
 Horsea
 Seadra
 Goldeen
@@ -137,11 +127,9 @@ Jynx
 Electabuzz
 Magmar
 Pinsir
-PinsirMega Pinsir
 Tauros
 Magikarp
 Gyarados
-GyaradosMega Gyarados
 Lapras
 Ditto
 Eevee
@@ -154,7 +142,6 @@ Omastar
 Kabuto
 Kabutops
 Aerodactyl
-AerodactylMega Aerodactyl
 Snorlax
 Articuno
 Zapdos
@@ -163,8 +150,6 @@ Dratini
 Dragonair
 Dragonite
 Mewtwo
-MewtwoMega Mewtwo X
-MewtwoMega Mewtwo Y
 Mew
 Chikorita
 Bayleef
@@ -196,7 +181,6 @@ Xatu
 Mareep
 Flaaffy
 Ampharos
-AmpharosMega Ampharos
 Bellossom
 Marill
 Azumarill
@@ -224,15 +208,12 @@ Forretress
 Dunsparce
 Gligar
 Steelix
-SteelixMega Steelix
 Snubbull
 Granbull
 Qwilfish
 Scizor
-ScizorMega Scizor
 Shuckle
 Heracross
-HeracrossMega Heracross
 Sneasel
 Teddiursa
 Ursaring
@@ -248,7 +229,6 @@ Mantine
 Skarmory
 Houndour
 Houndoom
-HoundoomMega Houndoom
 Kingdra
 Phanpy
 Donphan
@@ -268,22 +248,18 @@ Suicune
 Larvitar
 Pupitar
 Tyranitar
-TyranitarMega Tyranitar
 Lugia
 Ho-oh
 Celebi
 Treecko
 Grovyle
 Sceptile
-SceptileMega Sceptile
 Torchic
 Combusken
 Blaziken
-BlazikenMega Blaziken
 Mudkip
 Marshtomp
 Swampert
-SwampertMega Swampert
 Poochyena
 Mightyena
 Zigzagoon
@@ -306,7 +282,6 @@ Pelipper
 Ralts
 Kirlia
 Gardevoir
-GardevoirMega Gardevoir
 Surskit
 Masquerain
 Shroomish
@@ -327,19 +302,14 @@ Nosepass
 Skitty
 Delcatty
 Sableye
-SableyeMega Sableye
 Mawile
-MawileMega Mawile
 Aron
 Lairon
 Aggron
-AggronMega Aggron
 Meditite
 Medicham
-MedichamMega Medicham
 Electrike
 Manectric
-ManectricMega Manectric
 Plusle
 Minun
 Volbeat
@@ -349,12 +319,10 @@ Gulpin
 Swalot
 Carvanha
 Sharpedo
-SharpedoMega Sharpedo
 Wailmer
 Wailord
 Numel
 Camerupt
-CameruptMega Camerupt
 Torkoal
 Spoink
 Grumpig
@@ -366,7 +334,6 @@ Cacnea
 Cacturne
 Swablu
 Altaria
-AltariaMega Altaria
 Zangoose
 Seviper
 Lunatone
@@ -387,17 +354,14 @@ Castform
 Kecleon
 Shuppet
 Banette
-BanetteMega Banette
 Duskull
 Dusclops
 Tropius
 Chimecho
 Absol
-AbsolMega Absol
 Wynaut
 Snorunt
 Glalie
-GlalieMega Glalie
 Spheal
 Sealeo
 Walrein
@@ -409,24 +373,17 @@ Luvdisc
 Bagon
 Shelgon
 Salamence
-SalamenceMega Salamence
 Beldum
 Metang
 Metagross
-MetagrossMega Metagross
 Regirock
 Regice
 Registeel
 Latias
-LatiasMega Latias
 Latios
-LatiosMega Latios
 Kyogre
-KyogrePrimal Kyogre
 Groudon
-GroudonPrimal Groudon
 Rayquaza
-RayquazaMega Rayquaza
 Jirachi
 DeoxysNormal Forme
 DeoxysAttack Forme
@@ -476,7 +433,6 @@ Drifloon
 Drifblim
 Buneary
 Lopunny
-LopunnyMega Lopunny
 Mismagius
 Honchkrow
 Glameow
@@ -494,11 +450,9 @@ Spiritomb
 Gible
 Gabite
 Garchomp
-GarchompMega Garchomp
 Munchlax
 Riolu
 Lucario
-LucarioMega Lucario
 Hippopotas
 Hippowdon
 Skorupi
@@ -511,7 +465,6 @@ Lumineon
 Mantyke
 Snover
 Abomasnow
-AbomasnowMega Abomasnow
 Weavile
 Magnezone
 Lickilicky
@@ -527,7 +480,6 @@ Gliscor
 Mamoswine
 Porygon-Z
 Gallade
-GalladeMega Gallade
 Probopass
 Dusknoir
 Froslass
@@ -544,8 +496,7 @@ Dialga
 Palkia
 Heatran
 Regigigas
-GiratinaAltered Forme
-GiratinaOrigin Forme
+Giratina
 Cresselia
 Phione
 Manaphy
@@ -591,7 +542,6 @@ Swoobat
 Drilbur
 Excadrill
 Audino
-AudinoMega Audino
 Timburr
 Gurdurr
 Conkeldurr
@@ -750,8 +700,7 @@ MeowsticMale
 MeowsticFemale
 Honedge
 Doublade
-AegislashBlade Forme
-AegislashShield Forme
+Aegislash
 Spritzee
 Aromatisse
 Swirlix
