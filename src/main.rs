@@ -58,14 +58,6 @@ fn run(unit_config:UnitConfig) -> Result<(), Box<dyn Error>> {
         let mut unit_num = 0;
         println!("Unit {:?}:", index);
 
-        // Custom code, but only 1 group has 5 units. Eventually all groups should have 5. 
-        // Might be I should find a way to bring in unit sizes and restrictions where necessary for making this more generic
-        // let size = if index <=3 {
-        //     5         
-        // }else{
-        //     4
-        // };
-
         // Loop through the size of the units
         while unit_num < unit_config.unit_size{
             unit_num +=1;

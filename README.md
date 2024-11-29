@@ -4,9 +4,9 @@ A `config.toml` file will be used to configure the unit_randomizer
 
 Edit the file for the following:
 
-Set the num_of_units to the desired number of units to create
-Set the unit_size to the desired size of the units
-Set the csv_path to the desired csv
+Set the num_of_units as an integer to the desired number of units to create
+Set the unit_size as an integer to the desired size of the units
+Set the csv_path as string to the desired csv
 
 After compiling the program with `cargo build`, run the exe in the command line:
 
